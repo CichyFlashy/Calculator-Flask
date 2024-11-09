@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form id="calculator" action="/calculator" method="POST">
+        <label>Podaj swoje liczby:</label><br>
+        <input type="number" id="number1" name="number1"><br>
+        <input type="number" id="number2" name="number2"><br>
+        <select id="operation" name="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+        <input type="submit" value="Oblicz">
+    </form>
+</body>
+</html>
